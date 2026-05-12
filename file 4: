@@ -1,0 +1,48 @@
+README.md
+
+Markdown
+# ShopBloomTheory Store Optimization
+
+**Domain:** shopbloomtheory.co
+
+Fully optimized Shopify storefront with SEO, performance optimization (<100KB), Meta Pixel, and Google Tag Manager.
+
+## 🚀 Quick Start
+
+```bash
+npm install
+npm run build
+npm run audit
+npm run deploy
+✨ Features
+
+✅ SEO Meta Tags & Structured Data
+✅ Performance < 100KB
+✅ Meta Pixel Tracking
+✅ Google Tag Manager
+✅ Image Optimization
+✅ CSS/JS Minification
+📊 Performance Targets
+
+Lighthouse Score: > 90
+Total Assets: < 100KB
+Page Load: < 3 seconds
+📖 Documentation
+
+Setup Guide
+Performance Guide
+SEO Checklist
+🔧 Configuration
+
+Add your IDs to .env:
+
+env
+GTM_ID=GTM-XXXXXX
+META_PIXEL_ID=pixel_id
+📝 License
+
+Private - ShopBloomTheory
+
+Code
+
+---
