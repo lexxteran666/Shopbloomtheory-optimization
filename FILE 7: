@@ -1,0 +1,56 @@
+docs/PERFORMANCE-GUIDE.md
+
+Markdown
+# Performance Optimization Guide
+
+## Targets
+
+| Metric | Target |
+|--------|--------|
+| Total Assets | < 100KB |
+| Lighthouse | > 90 |
+| LCP | < 2.5s |
+| FID | < 100ms |
+
+## Asset Budget
+
+CSS: < 30KB JS: < 30KB Images: < 40KB
+
+Code
+
+## CSS Optimization
+
+```bash
+npm run optimize-css
+JavaScript Optimization
+
+bash
+npm run optimize-js
+Image Optimization
+
+bash
+npm run optimize-images
+Tools
+
+Lighthouse: npm run audit
+PageSpeed Insights
+GTmetrix
+WebPageTest
+Code
+
+---
+
+## 📋 Steps to Add These Files
+
+1. **Create repo** at https://github.com/new
+2. **Clone locally:**
+   ```bash
+   git clone https://github.com/lexxteran666gh/shopbloomtheory-optimization.git
+   cd shopbloomtheory-optimization
+Create files (copy/paste from above)
+Commit:
+bash
+git add .
+git commit -m "Initial commit: full optimization setup"
+git push
+Ready to proceed? 🚀
