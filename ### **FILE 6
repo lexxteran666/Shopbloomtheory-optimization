@@ -1,0 +1,40 @@
+docs/SEO-CHECKLIST.md**
+
+```markdown
+# SEO Checklist
+
+## On-Page SEO
+
+- [ ] Meta title (50-60 characters)
+- [ ] Meta description (150-160 characters)
+- [ ] H1 tag per page
+- [ ] Image alt text
+- [ ] Internal links
+- [ ] URL structure
+- [ ] Mobile responsive
+
+## Technical SEO
+
+- [ ] XML sitemap
+- [ ] robots.txt
+- [ ] SSL certificate (HTTPS)
+- [ ] Mobile friendly
+- [ ] Page speed < 3s
+- [ ] Structured data (JSON-LD)
+- [ ] No broken links
+
+## Content
+
+- [ ] Unique content
+- [ ] Keyword optimization
+- [ ] Content length > 300 words
+- [ ] Headers (H1, H2, H3)
+- [ ] Images with alt text
+- [ ] Call-to-action
+
+## Tools
+
+- [Google Search Console](https://search.google.com/search-console)
+- [PageSpeed Insights](https://pagespeed.web.dev)
+- [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+- [Schema Validator](https://validator.schema.org)
