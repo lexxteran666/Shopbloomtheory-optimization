@@ -1,0 +1,52 @@
+docs/SETUP.md**
+
+```markdown
+# Setup Guide
+
+## 1. Clone Repository
+```bash
+git clone https://github.com/lexxteran666gh/shopbloomtheory-optimization.git
+cd shopbloomtheory-optimization
+npm install
+2. Configure IDs
+
+Create .env file from .env.example:
+
+env
+GTM_ID=GTM-XXXXXX
+META_PIXEL_ID=your_pixel_id
+DOMAIN=shopbloomtheory.co
+3. Get Your IDs
+
+Google Tag Manager
+
+Go to https://tagmanager.google.com
+Create new container
+Copy Container ID (GTM-XXXXX)
+Meta Pixel
+
+Go to https://business.facebook.com
+Create new pixel
+Copy Pixel ID
+Google Analytics
+
+Go to https://analytics.google.com
+Create new property
+Copy GA ID (G-XXXXXXXXXX)
+4. Build & Optimize
+
+bash
+npm run build          # Minify CSS/JS, optimize images
+npm run audit         # Run Lighthouse test
+5. Deploy to Shopify
+
+bash
+npm run deploy
+6. Verify
+
+Check GTM firing in GTM preview mode
+Verify Meta Pixel in Events Manager
+Monitor page speed in PageSpeed Insights
+Code
+
+---
